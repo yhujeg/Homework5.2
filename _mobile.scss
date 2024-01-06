@@ -1,3 +1,9 @@
+@media (max-width: 400px) {
+    .top {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -7.35%, #000915 100%), url(./img/mobile-BACKGROUND.jpg), lightgray -240.259px 0px / 294% 100% no-repeat;
+    }
+}
+
 @media (max-width: 767px) {
     .center {
         padding-left: 16px;
@@ -7,7 +13,6 @@
 
 .top {
     height: 735px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -7.35%, #000915 100%), url(./img/mobile-BACKGROUND.jpg), lightgray -240.259px 0px / 294% 100% no-repeat;
     &__head {
         text-align: center;
         font-size: 32px;

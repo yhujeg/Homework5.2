@@ -3,6 +3,13 @@
 // let b = prompt ("Введите второе число");
 
 // function min(a, b) {
+//   let numberA = parseFloat(a);
+//   let numberB = parseFloat(b);
+
+//   if (isNaN(numberA) || isNaN(numberB)) {
+//     console.log("Это не число.");
+//     return;
+//   }
 //     if (a < b) {
 //       return a;
 //     } else {
@@ -15,6 +22,12 @@
 // let theNum = prompt ("Введите число");
 
 // function even(theNum) {
+//   let number = parseFloat(theNum);
+
+//   if (isNaN(number)) {
+//     console.log("Это не число.");
+//     return;
+//   }
 //     return theNum % 2 === 0 ? 'Число четное' : 'Число нечетное';
 //   }
 //   console.log (even (theNum));
@@ -22,6 +35,11 @@
 
 // задание 3.1
 // function square(number) {
+  
+//   if (isNaN(number)) {
+//     console.log("Вы ввели не число.");
+//     return;
+//   }
 //     const userInput = number;
 //     let square = userInput * userInput;
 //     console.log(square);
@@ -34,14 +52,25 @@
 // let number = prompt ("Введите число");
 
 // function square(number) {
+
+//   if (isNaN(number)) {
+//     console.log("Вы ввели не число.");
+//     return;
+//   }
 //     return number * number;
 //   }
 //     console.log(square(number));
 
 // задание 4
-// let userAge = prompt("Сколько Вам лет?");
+// let userInput = prompt("Сколько Вам лет?");
 
-// function age(age) {
+// function checkAge(age) {
+//   let number = parseFloat(age);
+
+//   if (isNaN(number)) {
+//     console.log("Вы не ввели число.");
+//     return;
+//   }
 //   if (age < 0) {
 //     console.log("Вы ввели неправильное значение.");
 //   } else if (age <= 12) {
@@ -51,7 +80,7 @@
 //   }
 // }
 
-// age(userAge);
+// checkAge(userInput);
 
 // задание 5
 // let firstNumber = prompt("Введите первое число");
@@ -66,9 +95,7 @@
 //   console.log (multiply(firstNumber, secondNumber));
 
 // задание 6
-// let userInput = prompt("Введите число:");
-
-// function cubeNumber() {
+// function cubeNumber(userInput) {
 //     if (isNaN(userInput)) {
 //       return "Переданный параметр не является числом";
 //     }
@@ -76,6 +103,8 @@
 //     let cube = userInput * userInput * userInput;
 //     return `${userInput} в кубе равняется ${cube}`;
 //   }
+// let userInput = prompt("Введите число:");
+
 //   console.log (cubeNumber(userInput));
 
 
